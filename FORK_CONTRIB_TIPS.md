@@ -42,6 +42,7 @@ gwd master merge-upstream
 Rebase upstream branch to master if everything is ok then push:
 
 ```sh
+gco master
 gr merge-upstream
 gp
 gbx merge-upstream
